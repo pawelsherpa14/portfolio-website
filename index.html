@@ -7,40 +7,37 @@
     <link rel="stylesheet" href="/css/index.css" />
   </head>
   <body>
-    <nav data-scroll-sticky>
-        <ul class="title">
-            <h1 id="title-name">Pawel Sherpa</h1>
-        </ul>
-        <ul class="ul-links">
-            <li><a href="index.html">Home</a></li>
+    <div class="line"></div>
+    <header>
+      <nav>
+        <input type="checkbox" id="menu-toggle" />
+        <label for="menu-toggle" class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </label>
+        <div class="links">
+          <a class="logo" href="index.html">PS</a>
+          <ul class="nav-links">
             <li><a href="project.html">Projects</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
-    </nav>
-    <div class="info-wrapper">
-        <section class="image">
-            <IMAGE></IMAGE>
-        </section>    
-        <section class="introduction">
-            <h1>Welcome to My Portfolio</h1>
-            <p>
-                Hi, I'm Pawel Sherpa! Welcome to my online portfolio where I showcase my
-                projects and skills.
-            </p>
-        </section>
-    </div>
-    
+            <li><a href="sitereport.html">Sitereport</a></li>
+            <li><a href="video.html">Video</a></li>
+          </ul>
+        </div>
+        <a href="contact.html" class="contact-button">Contact Me</a>
+      </nav>
+    </header>
     <main>
-        <section>
-            <h2>About Me</h2>
-            <p>
-                <!-- Content here -->
-            </p>
-        </section>
+        <div class="profile-photo">
+            <img src="images/picture.jpg" alt="profile">
+        </div>
+        <div class="introduction">
+            <p>Hi👋, I am <strong class="intro-name">Pawel Sherpa</strong>.I am an aspiring developer and here you can check out some of my works and get in touch with me.</p>
+        </div>
+    <a href="contact.html" class="mobile-contact-button">Contact Me</a>
     </main>
-    
     <footer>
-        <p>&copy; 2024 Pawel Sherpa</p>
+      <p>&copy; 2024 Pawel Sherpa</p>
     </footer>
-</body>
+  </body>
 </html>
