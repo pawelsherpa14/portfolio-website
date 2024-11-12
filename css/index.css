@@ -269,11 +269,11 @@ nav {
 }
 @media (max-width: 600px) {
     .introduction p {
-        font-size: 1.6rem; /* Adjusted font size for smaller screens */
+        font-size: 1.6rem;
     }
 
     .introduction strong {
-        font-size: 1.7rem; /* Adjusted strong text size for consistency */
+        font-size: 1.7rem; 
     }
 }
 footer {
