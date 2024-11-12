@@ -255,6 +255,7 @@ nav {
     display: flex;
     justify-self: center;
     font-family: inherit;
+    text-align: center;
 }
 .introduction p{
     color: rgb(17, 24, 39);
